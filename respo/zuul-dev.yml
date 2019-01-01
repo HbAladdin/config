@@ -22,3 +22,12 @@ zuul:
     api-b:
       path: /api/b/**
       serviceId: web-admin-feign
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: *
