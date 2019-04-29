@@ -9,7 +9,7 @@ spring:
           uri: https://github.com/HbAladdin/config
           search-paths: respo
           username: zhouruizhong
-          password: zhouruizhong@809
+          password: 1111111
   boot:
     admin:
       client:
