@@ -1,0 +1,8 @@
+version: 3.1
+services:
+  config:
+    restart: always
+    image: 192.168.1.106:5000/config
+    container_name: config
+    ports:
+      - 8888: 8888
